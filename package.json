@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "jest ./test/*",
-        "docs": "npx jsdoc2md --template README_template.md --files index.js > README.md"
+        "docs": "npx jsdoc2md --template README_template.md --files ./src/*.js > README.md"
     },
     "repository": {
         "type": "git",

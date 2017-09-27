@@ -1,4 +1,7 @@
-# mongoose-to-gql 
+# mongoose-to-gql [![Build Status][travis-image]][travis-url]
+
+[travis-url]: https://travis-ci.org/MLH-KM/mongoose-to-gql
+[travis-image]: https://travis-ci.org/MLH-KM/mongoose-to-gql.svg?branch=master
 
 Convert Mongoose Schemas to GraphQLTypes with some reasonable defaults.
 
