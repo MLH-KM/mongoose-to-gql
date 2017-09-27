@@ -1,6 +1,6 @@
 {
     "name": "mongoose-to-gql",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Convert Mongoose Schemas to GraphQL Types",
     "main": "index.js",
     "scripts": {
