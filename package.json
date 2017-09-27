@@ -4,7 +4,7 @@
     "description": "Convert Mongoose Schemas to GraphQL Types",
     "main": "index.js",
     "scripts": {
-        "test": "jest test.js",
+        "test": "jest ./test/*",
         "docs": "npx jsdoc2md --template README_template.md --files index.js > README.md"
     },
     "repository": {

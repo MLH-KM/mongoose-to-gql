@@ -1,10 +1,11 @@
+const createGraphQLType = require('../src/index.js');
+
 const _ = {
     omit: require('lodash.omit'),
     merge: require('lodash.merge'),
     isDate: require('lodash.isdate'),
     isBoolean: require('lodash.isboolean')
 };
-const createGraphQLType = require('./index.js');
 const createType = require('mongoose-schema-to-graphql').default;
 const Schema = require('mongoose').Schema;
 
