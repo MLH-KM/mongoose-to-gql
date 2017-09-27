@@ -1,0 +1,39 @@
+{
+    "name": "mongoose-to-gql",
+    "version": "1.0.0",
+    "description": "Convert Mongoose Schemas to GraphQL Types",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest test.js",
+        "docs": "npx jsdoc2md --template README_template.md --files index.js > README.md"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MLH-KM/mongoose-to-gql.git"
+    },
+    "keywords": [],
+    "author": "MLH-KM",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MLH-KM/mongoose-to-gql/issues"
+    },
+    "homepage": "https://github.com/MLH-KM/mongoose-to-gql#readme",
+    "devDependencies": {
+        "graphql": "^0.11.4",
+        "graphql-iso-date": "^3.3.0",
+        "jest": "^21.2.0",
+        "jsdoc-to-markdown": "^3.0.0",
+        "lodash.isboolean": "^3.0.3",
+        "lodash.isdate": "^4.0.1",
+        "lodash.omit": "^4.5.0",
+        "moment": "^2.18.1",
+        "mongoose": "^4.11.13",
+        "prettier": "^1.7.1"
+    },
+    "dependencies": {
+        "lodash.get": "^4.4.2",
+        "lodash.merge": "^4.6.0",
+        "lodash.reduce": "^4.6.0",
+        "mongoose-schema-to-graphql": "^2.6.8"
+    }
+}
