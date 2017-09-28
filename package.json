@@ -1,8 +1,8 @@
 {
     "name": "mongoose-to-gql",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Convert Mongoose Schemas to GraphQL Types",
-    "main": "index.js",
+    "main": "src/index.js",
     "scripts": {
         "test": "jest ./test/*",
         "docs": "npx jsdoc2md --template README_template.md --files ./src/*.js > README.md"
