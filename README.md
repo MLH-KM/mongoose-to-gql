@@ -1,3 +1,10 @@
+## This module has been phased out in favor of [mongoose-graphql](https://github.com/MLH-KM/mongoose-graphql).
+This module is a roundabout way of creating a GraphQL object (from a Mongoose schema), which is then converted to a String to be passed into `makeExecutableSchema`. I had some dependency issues trying to add functionality and figured there was a better solution. That solution is the project linked above. It converts a Mongoose Schema straight from JS object into the GraphQL String to be passed into `makeExecutableSchema`, meaning one step in this process is cut out, and there's no circular dependency issue.
+
+# PROCEED WITH CAUTION.
+
+---
+
 # mongoose-to-gql [![Build Status][travis-image]][travis-url]
 
 [travis-url]: https://travis-ci.org/MLH-KM/mongoose-to-gql
